@@ -1,0 +1,6 @@
+La conexion con el api se encuentra en el webpack abajo.
+
+
+flujo de datos
+
+JSX->handleSubmit->_actions/userAction.login->sevices/userService->login()

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.home{
+background-image: url('../../assets/image2.jpg');
+background-repeat : no-repeat;
+background-size: cover;
+background-attachment : fixed;
+font-family: 'Numans', sans-serif;
+  position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:4;
+}
+
+.card-ey {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 20px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-ey:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container-ey {
+  padding: 20px;
+  background-color: white;
+  height: 175px;
+}
+
+.img-card-ey{
+  width: 100%;
+}
+
+.title-ey{
+  display: inline-block;
+  color: white;
+}
